@@ -1,0 +1,14 @@
+### OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Npm
+node_modules/
+
+### Dist
+assets/dist/css/*

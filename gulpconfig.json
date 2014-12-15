@@ -1,0 +1,20 @@
+{
+
+	"css": {
+
+		"watch": "assets/src/less/*.less",
+		"src": "assets/src/less/main.less",
+		"dist": "assets/dist/css"
+
+	},
+
+	"js": {
+
+		"src": [
+			"assets/src/js/main.js"
+		],
+		"dist": "assets/dist/js"
+
+	}
+
+}

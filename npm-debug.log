@@ -1,0 +1,313 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'browser-sync',
+1 verbose cli   'gulp',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json pigeonbingowebbys@ No repository field.
+5 warn package.json pigeonbingowebbys@ No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'browser-sync', null ]
+8 verbose cache add name=undefined spec="browser-sync" args=["browser-sync",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'browser-sync',
+9 verbose parsed url   path: 'browser-sync',
+9 verbose parsed url   href: 'browser-sync' }
+10 verbose cache add [ 'gulp', null ]
+11 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'gulp',
+12 verbose parsed url   path: 'gulp',
+12 verbose parsed url   href: 'gulp' }
+13 silly lockFile 6d7be3df-browser-sync browser-sync
+14 verbose lock browser-sync /Users/oakwood/.npm/6d7be3df-browser-sync.lock
+15 silly lockFile 9750c68d-gulp gulp
+16 verbose lock gulp /Users/oakwood/.npm/9750c68d-gulp.lock
+17 silly lockFile 6d7be3df-browser-sync browser-sync
+18 silly lockFile 6d7be3df-browser-sync browser-sync
+19 silly lockFile 9750c68d-gulp gulp
+20 silly lockFile 9750c68d-gulp gulp
+21 verbose addNamed [ 'browser-sync', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 6373e9ab-browser-sync browser-sync@
+24 verbose lock browser-sync@ /Users/oakwood/.npm/6373e9ab-browser-sync.lock
+25 verbose addNamed [ 'gulp', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile 72f4391e-gulp gulp@
+28 verbose lock gulp@ /Users/oakwood/.npm/72f4391e-gulp.lock
+29 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+30 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+31 verbose request where is /gulp
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id d0ffd9db54b4e4bc
+34 verbose url raw /gulp
+35 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+36 verbose url resolved https://registry.npmjs.org/gulp
+37 verbose request where is https://registry.npmjs.org/gulp
+38 info trying registry request attempt 1 at 16:28:27
+39 verbose etag "59N9038JRC0JATG9F75671H0S"
+40 http GET https://registry.npmjs.org/gulp
+41 verbose request where is /browser-sync
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /browser-sync
+44 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+45 verbose url resolved https://registry.npmjs.org/browser-sync
+46 verbose request where is https://registry.npmjs.org/browser-sync
+47 info trying registry request attempt 1 at 16:28:27
+48 verbose etag "2S28QAK5YFSVMILONT28H9EUX"
+49 http GET https://registry.npmjs.org/browser-sync
+50 http 304 https://registry.npmjs.org/gulp
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Mon, 15 Dec 2014 15:28:27 GMT',
+51 silly registry.get     server: 'Apache',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'last-modified': 'Mon, 15 Dec 2014 15:28:27 GMT',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     etag: '"59N9038JRC0JATG9F75671H0S"',
+51 silly registry.get     age: '35',
+51 silly registry.get     'x-served-by': 'cache-fra1244-FRA',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1418657307.761351,VS0,VE0',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'content-length': '0',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 verbose etag https://registry.npmjs.org/gulp from cache
+53 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+54 silly addNameRange versions [ 'gulp',
+54 silly addNameRange   [ '0.0.1',
+54 silly addNameRange     '0.0.2',
+54 silly addNameRange     '0.0.3',
+54 silly addNameRange     '0.0.4',
+54 silly addNameRange     '0.0.5',
+54 silly addNameRange     '0.0.7',
+54 silly addNameRange     '0.0.8',
+54 silly addNameRange     '0.0.9',
+54 silly addNameRange     '0.1.0',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.2.1',
+54 silly addNameRange     '2.0.0',
+54 silly addNameRange     '2.0.1',
+54 silly addNameRange     '2.1.0',
+54 silly addNameRange     '2.2.0',
+54 silly addNameRange     '2.3.0',
+54 silly addNameRange     '2.4.0',
+54 silly addNameRange     '2.4.1',
+54 silly addNameRange     '2.6.0',
+54 silly addNameRange     '2.6.1',
+54 silly addNameRange     '2.7.0',
+54 silly addNameRange     '3.0.0',
+54 silly addNameRange     '3.1.1',
+54 silly addNameRange     '3.1.2',
+54 silly addNameRange     '3.1.3',
+54 silly addNameRange     '3.1.4',
+54 silly addNameRange     '3.2.0',
+54 silly addNameRange     '3.2.1',
+54 silly addNameRange     '3.2.2',
+54 silly addNameRange     '3.2.3',
+54 silly addNameRange     '3.2.4',
+54 silly addNameRange     '3.2.5',
+54 silly addNameRange     '3.3.0',
+54 silly addNameRange     '3.3.1',
+54 silly addNameRange     '3.3.2',
+54 silly addNameRange     '3.3.4',
+54 silly addNameRange     '3.4.0',
+54 silly addNameRange     '3.5.0',
+54 silly addNameRange     '3.5.1',
+54 silly addNameRange     '3.5.2',
+54 silly addNameRange     '3.5.5',
+54 silly addNameRange     '3.5.6',
+54 silly addNameRange     '3.6.0',
+54 silly addNameRange     '3.6.1',
+54 silly addNameRange     '3.6.2',
+54 silly addNameRange     '3.7.0',
+54 silly addNameRange     '3.8.0',
+54 silly addNameRange     '3.8.1',
+54 silly addNameRange     '3.8.2',
+54 silly addNameRange     '3.8.3',
+54 silly addNameRange     '3.8.4',
+54 silly addNameRange     '3.8.5',
+54 silly addNameRange     '3.8.6',
+54 silly addNameRange     '3.8.7',
+54 silly addNameRange     '3.8.8',
+54 silly addNameRange     '3.8.9',
+54 silly addNameRange     '3.8.10' ] ]
+55 verbose addNamed [ 'gulp', '3.8.10' ]
+56 verbose addNamed [ '3.8.10', '3.8.10' ]
+57 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+58 verbose lock gulp@3.8.10 /Users/oakwood/.npm/f843d0d7-gulp-3-8-10.lock
+59 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+60 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+61 silly lockFile 72f4391e-gulp gulp@
+62 silly lockFile 72f4391e-gulp gulp@
+63 http 200 https://registry.npmjs.org/browser-sync
+64 silly registry.get cb [ 200,
+64 silly registry.get   { date: 'Mon, 15 Dec 2014 15:28:27 GMT',
+64 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly registry.get     etag: '"3FHGXUO9TCRNH4OFOON6Z5MQQ"',
+64 silly registry.get     'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=60',
+64 silly registry.get     'content-length': '191042',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     age: '32',
+64 silly registry.get     'x-served-by': 'cache-fra1229-FRA',
+64 silly registry.get     'x-cache': 'HIT',
+64 silly registry.get     'x-cache-hits': '34',
+64 silly registry.get     'x-timer': 'S1418657307.808330,VS0,VE0',
+64 silly registry.get     vary: 'Accept',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     connection: 'Keep-Alive' } ]
+65 silly addNameRange number 2 { name: 'browser-sync', range: '*', hasData: true }
+66 silly addNameRange versions [ 'browser-sync',
+66 silly addNameRange   [ '0.1.0',
+66 silly addNameRange     '0.1.1',
+66 silly addNameRange     '0.1.3',
+66 silly addNameRange     '0.1.5',
+66 silly addNameRange     '0.1.6',
+66 silly addNameRange     '0.1.7',
+66 silly addNameRange     '0.1.8',
+66 silly addNameRange     '0.1.9',
+66 silly addNameRange     '0.1.10',
+66 silly addNameRange     '0.2.0',
+66 silly addNameRange     '0.2.1',
+66 silly addNameRange     '0.3.0',
+66 silly addNameRange     '0.3.1',
+66 silly addNameRange     '0.3.2',
+66 silly addNameRange     '0.3.3',
+66 silly addNameRange     '0.3.4',
+66 silly addNameRange     '0.3.5',
+66 silly addNameRange     '0.3.6',
+66 silly addNameRange     '0.3.7',
+66 silly addNameRange     '0.3.8',
+66 silly addNameRange     '0.3.10',
+66 silly addNameRange     '0.4.0',
+66 silly addNameRange     '0.4.1',
+66 silly addNameRange     '0.4.2',
+66 silly addNameRange     '0.4.21',
+66 silly addNameRange     '0.4.3',
+66 silly addNameRange     '0.4.4',
+66 silly addNameRange     '0.4.5',
+66 silly addNameRange     '0.4.6',
+66 silly addNameRange     '0.4.7',
+66 silly addNameRange     '0.4.8',
+66 silly addNameRange     '0.4.9',
+66 silly addNameRange     '0.4.10',
+66 silly addNameRange     '0.4.11',
+66 silly addNameRange     '0.4.12',
+66 silly addNameRange     '0.5.0',
+66 silly addNameRange     '0.5.1',
+66 silly addNameRange     '0.5.2',
+66 silly addNameRange     '0.5.3',
+66 silly addNameRange     '0.5.4',
+66 silly addNameRange     '0.5.5',
+66 silly addNameRange     '0.5.6',
+66 silly addNameRange     '0.5.7',
+66 silly addNameRange     '0.5.8',
+66 silly addNameRange     '0.5.9',
+66 silly addNameRange     '0.6.0',
+66 silly addNameRange     '0.6.1',
+66 silly addNameRange     '0.6.2',
+66 silly addNameRange     '0.7.0',
+66 silly addNameRange     '0.7.1',
+66 silly addNameRange     '0.7.2',
+66 silly addNameRange     '0.7.3',
+66 silly addNameRange     '0.7.4',
+66 silly addNameRange     '0.7.5',
+66 silly addNameRange     '0.7.7',
+66 silly addNameRange     '0.8.0',
+66 silly addNameRange     '0.8.1',
+66 silly addNameRange     '0.8.2',
+66 silly addNameRange     '0.9.0',
+66 silly addNameRange     '0.9.1',
+66 silly addNameRange     '1.0.0',
+66 silly addNameRange     '1.1.0',
+66 silly addNameRange     '1.1.1',
+66 silly addNameRange     '1.1.2',
+66 silly addNameRange     '1.2.0',
+66 silly addNameRange     '1.2.1',
+66 silly addNameRange     '1.3.0',
+66 silly addNameRange     '1.3.2',
+66 silly addNameRange     '1.3.3',
+66 silly addNameRange     '1.3.4',
+66 silly addNameRange     '1.3.5',
+66 silly addNameRange     '1.3.6',
+66 silly addNameRange     '1.3.7',
+66 silly addNameRange     '1.5.0',
+66 silly addNameRange     '1.5.1',
+66 silly addNameRange     '1.5.2',
+66 silly addNameRange     '1.5.3',
+66 silly addNameRange     '1.5.4',
+66 silly addNameRange     '1.5.5',
+66 silly addNameRange     '1.5.6',
+66 silly addNameRange     '1.5.7',
+66 silly addNameRange     '1.5.8',
+66 silly addNameRange     '1.5.9',
+66 silly addNameRange     '1.6.0',
+66 silly addNameRange     '1.6.1',
+66 silly addNameRange     '1.6.2',
+66 silly addNameRange     '1.6.3',
+66 silly addNameRange     '1.6.4',
+66 silly addNameRange     '1.6.5',
+66 silly addNameRange     '1.7.0',
+66 silly addNameRange     '1.7.1',
+66 silly addNameRange     '1.7.2',
+66 silly addNameRange     '1.7.3' ] ]
+67 verbose addNamed [ 'browser-sync', '1.7.3' ]
+68 verbose addNamed [ '1.7.3', '1.7.3' ]
+69 silly lockFile 826fa972-browser-sync-1-7-3 browser-sync@1.7.3
+70 verbose lock browser-sync@1.7.3 /Users/oakwood/.npm/826fa972-browser-sync-1-7-3.lock
+71 silly lockFile 9c923286-wser-sync-browser-sync-1-7-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+72 verbose lock https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz /Users/oakwood/.npm/9c923286-wser-sync-browser-sync-1-7-3-tgz.lock
+73 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz',
+73 verbose addRemoteTarball   'd46d02daffdce61ea70bec8eebf94d5971208c32' ]
+74 info retry fetch attempt 1 at 16:28:28
+75 verbose fetch to= /var/folders/4q/w129vl017glfyklrnp51fbz40000gn/T/npm-4631-5VPRR-zV/registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+76 http GET https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+77 http 200 https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+78 silly lockFile 9c923286-wser-sync-browser-sync-1-7-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+79 silly lockFile 9c923286-wser-sync-browser-sync-1-7-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-1.7.3.tgz
+80 silly lockFile 826fa972-browser-sync-1-7-3 browser-sync@1.7.3
+81 silly lockFile 826fa972-browser-sync-1-7-3 browser-sync@1.7.3
+82 silly lockFile 6373e9ab-browser-sync browser-sync@
+83 silly lockFile 6373e9ab-browser-sync browser-sync@
+84 error Error: EACCES, mkdir '/Users/oakwood/.npm/browser-sync/1.7.3'
+84 error  { [Error: EACCES, mkdir '/Users/oakwood/.npm/browser-sync/1.7.3']
+84 error   errno: 3,
+84 error   code: 'EACCES',
+84 error   path: '/Users/oakwood/.npm/browser-sync/1.7.3',
+84 error   parent: 'pigeonbingowebbys' }
+85 error Please try running this command again as root/Administrator.
+86 error System Darwin 14.0.0
+87 error command "node" "/usr/local/bin/npm" "install" "browser-sync" "gulp" "--save-dev"
+88 error cwd /Users/oakwood/Sites/pigeonbingowebbys
+89 error node -v v0.10.33
+90 error npm -v 1.4.28
+91 error path /Users/oakwood/.npm/browser-sync/1.7.3
+92 error code EACCES
+93 error errno 3
+94 error stack Error: EACCES, mkdir '/Users/oakwood/.npm/browser-sync/1.7.3'
+95 verbose exit [ 3, true ]
