@@ -10,6 +10,9 @@
 
 	"js": {
 
+		"vendor": [
+			"assets/src/js/vendor/**/*.js"
+		],
 		"src": [
 			"assets/src/js/main.js"
 		],

@@ -1,3 +1,127 @@
-html {
 
+/* Variables
+   ========================================================================== */
+
+@maingray	: #b3b3b3;
+@darkgray	: #4b4c4d;
+
+@textdark	: #4a4a4a;
+@textlight	: #ffffff;
+@blacktrans	: rgba(0,0,0,0.6);
+
+@gutterWidth: 20px;
+
+@fontFamily	: Helvetica, Arial, sans-serif;
+@headingFont: 'Urbanears', Helvetica, Arial, sans-serif;
+
+@maxWidth	: 960px;
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
+*:last-child {
+	margin-bottom: 0;
+}
+	
+html {
+	font-size: 10px;
+	line-height: 10px;
+}
+
+body {
+	background: @maingray;
+	font-family: @fontFamily;
+	font-style: normal;
+	font-size: 1.7rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	color: @textdark;
+}
+
+
+p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol, dl {
+	margin: 0 0 2rem;
+	font-weight: 300;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4.8rem;
+}
+
+h1, h2 {
+	font-family: @headingFont;
+	text-transform: uppercase;
+	font-size: 4.8rem;
+	line-height: 1;
+	margin-top: 4.5rem;
+	letter-spacing: 0.1rem;
+}
+
+h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.4rem;
+	font-family: @headingFont;
+	letter-spacing: 0.06rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Mixins
+   ========================================================================== */
+
+.container(@minWidth: @minWidth, @maxWidth: @maxWidth, @paddingRight: 0) {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding-left: @gutterWidth * 1rem;
+	padding-right: @gutterWidth * @paddingRight * 1rem;
+	min-width: @minWidth;
+	max-width: @maxWidth;
+}
+
+
+.col(@percent: 100%, @paddingRight: 1) {
+	position: relative;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 1px;
+	padding-right: @gutterWidth * @paddingRight * 1rem;
+	width: @percent;
+}
+
+.clearfix() {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+
+
+
+
+/*
+Column
+
+#### Usage:
+`.col(50%, 1);`
+
+#### Arguments:
+* `@percent` - col width in percent
+* `@paddingRight` - gutter on the right
+
+Styleguide 1.1.2
+*/
