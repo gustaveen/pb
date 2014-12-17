@@ -10,6 +10,7 @@
    ========================================================================== */
 
 .site-header {
+	min-width: 1000px;
 	
 	.urabanears-logo {
 		width: 170px;
@@ -23,6 +24,7 @@
 
 .section {
 	width: 100%;
+	min-width: 1000px;
 
 	&.results, &.social {
 		padding-top: 1rem;
@@ -32,7 +34,7 @@
 	}
 }
 
-.header-content, .section-content, .wrapper {
+.header-content, .section-content {
 	width: @maxWidth;
 	margin: 0 auto;
 	.clearfix();
@@ -49,6 +51,7 @@
 .campaign {
 
 	margin-bottom: 3rem;
+	background: url('../img/pigeon.jpg') 100% 100% no-repeat; 
 
 	.section-title {
 		margin-top: 2.5rem;
@@ -60,8 +63,10 @@
 	}
 
 	.campaign-description {
-		float: left;
-		width: 65%;
+		//float: left;
+		// width: 65%;
+		padding-right: 35%;
+		// background: url('../img/pigeon.jpg') 100% 100% no-repeat; 
 		z-index: 1;
 		margin-bottom: 5rem;
 	}
