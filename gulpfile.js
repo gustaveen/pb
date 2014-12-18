@@ -58,4 +58,4 @@ gulp.task('watch', function() {
 
 });
 
-gulp.task('default', ['watch', 'browser-sync']);
+gulp.task('default', ['less', 'watch', 'browser-sync']);

@@ -1,1 +1,4 @@
-Pigeon Bingo Webbys
+# Pigeon Bingo Webbys
+
+* npm install
+* gulp
