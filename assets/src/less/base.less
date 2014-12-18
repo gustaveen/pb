@@ -25,6 +25,9 @@
 *:last-child {
 	margin-bottom: 0;
 }
+
+/* Base
+   ========================================================================== */
 	
 html {
 	font-size: 10px;
@@ -77,30 +80,6 @@ img {
 /* Mixins
    ========================================================================== */
 
-.container(@minWidth: @minWidth, @maxWidth: @maxWidth, @paddingRight: 0) {
-	position: relative;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding-left: @gutterWidth * 1rem;
-	padding-right: @gutterWidth * @paddingRight * 1rem;
-	min-width: @minWidth;
-	max-width: @maxWidth;
-}
-
-
-.col(@percent: 100%, @paddingRight: 1) {
-	position: relative;
-	float: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	min-height: 1px;
-	padding-right: @gutterWidth * @paddingRight * 1rem;
-	width: @percent;
-}
-
 .clearfix() {
 	&:after {
 		content: '';
@@ -108,20 +87,3 @@ img {
 		clear: both;
 	}
 }
-
-
-
-
-
-/*
-Column
-
-#### Usage:
-`.col(50%, 1);`
-
-#### Arguments:
-* `@percent` - col width in percent
-* `@paddingRight` - gutter on the right
-
-Styleguide 1.1.2
-*/
